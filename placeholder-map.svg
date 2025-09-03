@@ -1,0 +1,47 @@
+<svg width="2048" height="2048" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background landscape -->
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#98FB98;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky/Land background -->
+  <rect width="2048" height="2048" fill="url(#sky)" />
+  
+  <!-- Wilderness - darker northern area -->
+  <rect x="0" y="0" width="2048" height="640" fill="#4A5568" opacity="0.6" />
+  
+  <!-- Mountains and terrain -->
+  <rect x="0" y="600" width="2048" height="200" fill="#2D3748" opacity="0.4" />
+  
+  <!-- Central lands -->
+  <rect x="0" y="800" width="2048" height="800" fill="#68D391" opacity="0.3" />
+  
+  <!-- Desert area (south-east) -->
+  <rect x="1000" y="1400" width="1048" height="648" fill="#F6AD55" opacity="0.5" />
+  
+  <!-- Water bodies -->
+  <circle cx="500" cy="1200" r="150" fill="#4299E1" opacity="0.6" />
+  <circle cx="1500" cy="900" r="100" fill="#4299E1" opacity="0.6" />
+  
+  <!-- Grid lines for region alignment -->
+  <g stroke="#000" stroke-width="2" opacity="0.1">
+    <line x1="0" y1="640" x2="2048" y2="640" />
+    <line x1="0" y1="1024" x2="2048" y2="1024" />
+    <line x1="0" y1="1376" x2="2048" y2="1376" />
+    <line x1="0" y1="1536" x2="2048" y2="1536" />
+    <line x1="896" y1="0" x2="896" y2="2048" />
+    <line x1="1216" y1="0" x2="1216" y2="2048" />
+  </g>
+  
+  <!-- Region labels for debugging -->
+  <text x="1024" y="384" text-anchor="middle" fill="#FFF" font-size="48" font-weight="bold">WILDERNESS</text>
+  <text x="512" y="896" text-anchor="middle" fill="#FFF" font-size="36">Frem/Lunar</text>
+  <text x="512" y="1200" text-anchor="middle" fill="#FFF" font-size="36">Kandarin</text>
+  <text x="1024" y="1200" text-anchor="middle" fill="#FFF" font-size="36">Asgarnia</text>
+  <text x="1472" y="1200" text-anchor="middle" fill="#FFF" font-size="36">Misthalin</text>
+  <text x="384" y="1600" text-anchor="middle" fill="#FFF" font-size="32">Pisc/Gnome/Tir</text>
+  <text x="1408" y="1728" text-anchor="middle" fill="#FFF" font-size="36">Kharidian Desert</text>
+</svg>
