@@ -98,3 +98,4 @@ And emits WebSocket events:
   "status": "current"
 }
 ```
+# Deployment test
